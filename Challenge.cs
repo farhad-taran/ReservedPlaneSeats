@@ -6,8 +6,6 @@ namespace ReservedSeatsChallenge
 {
     public class Challenge
     {
-
-
         [Theory]
         [InlineData(0, "", 0)]
         [InlineData(1, "", 2)]
@@ -26,10 +24,8 @@ namespace ReservedSeatsChallenge
 
         public int Solution(int rows, string seats)
         {
-            //ABC DEFG HJK
             const string leftSpot = "BCDE";
             const string rightSpot = "FGHJ";
-
 
             if (string.IsNullOrWhiteSpace(seats))
             {
