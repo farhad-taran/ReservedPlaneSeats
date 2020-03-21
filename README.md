@@ -2,7 +2,7 @@
 
 You are processing plane seat reservations. The plane has N rows of seats, numbered from 1 to N. There are ten seats in each row (labelled from A to K, with letter I omitted), as shown in the figure below:
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![N|Solid](https://github.com/farhad-taran/ReservedPlaneSeats/blob/master/docs/1.png)
 
 Some of the seats are already reserved. The list of reserved seats is given as a string S (of length M) containing seat numbers separated by single spaces: for example, "1A 3C 2B 40G 5A". The reserved seats can be listed in S in any order.
 
@@ -16,11 +16,11 @@ that, given the number of rows N and a list of reserved seats as string S, retur
 
 For instance, given N = 2 and S = "1A 2F 1C", your function should return 2. The following figure shows one possible way of seating two families in the remaining seats:
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![N|Solid](https://github.com/farhad-taran/ReservedPlaneSeats/blob/master/docs/2.png)
 
 Given N = 1 and S = "" (empty string), your function should return 2, because we can seat at most two families in a single row of seats, as shown in the figure below:
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![N|Solid](https://github.com/farhad-taran/ReservedPlaneSeats/blob/master/docs/3.png)
 
 Assume that:
 
